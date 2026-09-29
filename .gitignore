@@ -1,0 +1,32 @@
+# Dữ liệu thô (video) — quá nặng, tải riêng theo hướng dẫn trong README
+Fold*/
+*.mp4
+*.mov
+*.avi
+
+# Model MediaPipe (tải riêng)
+*.task
+
+# CSV đặc trưng sinh ra từ extract_features.py — nặng, sinh lại được
+features*.csv
+*_done.txt
+
+# Model đã train + config sinh ra
+*.pkl
+*.keras
+drowsiness_model_config.json
+
+# Hình ảnh/biểu đồ sinh ra khi chạy evaluate.py, tune_random_forest.py, train_lstm_cnn.py
+confusion_matrix*.png
+training_curve_lstm.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/

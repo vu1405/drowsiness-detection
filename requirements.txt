@@ -1,0 +1,13 @@
+# Bắt buộc — trích xuất đặc trưng (src/extract_features.py)
+opencv-python
+mediapipe
+numpy
+
+# Bắt buộc — xử lý dữ liệu & model chính (src/evaluate.py, src/train_final_model.py)
+pandas
+scikit-learn
+matplotlib
+joblib
+
+# Tuỳ chọn — chỉ cần nếu chạy experiments/train_lstm_cnn.py
+tensorflow
